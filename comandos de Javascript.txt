@@ -1,0 +1,59 @@
+FORMAS DE DECLARAR VARIAIVEIS 
+
+var menssage - 'hello word' (não usar mais)
+
+connst (não da pra alterar depois)
+let (da pra alterar depois)
+=================================================================
+STRING (texto no javascript)
+
+.length (contar o numero de caracteris)
+`${} ${}` (para somar variaveis)
+.toUpperCase() (deixar tudo em maiusculo)
+.toLowerCase() (deixar tudo em minusculo)
+.split(",") (colocar os nomes em uma lista)
+
+const message = 'Hello world!'
+console.log(message.length)
+
+const firstname = 'Fabio'
+const lastname = 'Pires'
+
+const names = 'Fabio,julia,João'
+
+console.log(`Meu nome é ${firstname.toUpperCase} ${lastname.toLowerCase}`);
+
+console.log(names.split(","))
+=================================================================
+
+NUMBERS
+
+operaçôes com numeros
+* multiplicação
+/ divisão
++ soma 
+- subtração
+
+.toString() (para transformar um numero em string)
+
+const number = 5
+
+console.log(number + 10)
+
+-----------------------------------------------------------------
+BOOLEANS
+
+false
+true
+
+console.log(2 == 3)
+-----------------------------------------------------------------
+Null & Undefined
+
+Null (nao possui valor / vazio)
+Undefined (ainda nao foi definido o valor)
+
+const x = null;
+
+const y = undefined
+
