@@ -6,14 +6,53 @@ pronpt('') (criar uma janela para digitar algo)
 = (recebe)
 null (vazio / nada)
 
-VARIAVEIS
-
+DATA TYPES
 
 NUMBERS
 5 18 -12
 0.5 -15.9 3.14 8.0
+    inity
+    NaN (not a number)
 
 STRING
 'Google'
 "javascript"
 ´Maria´
+
+BOOLEAN
+true 
+
+UNDEFINED 
+
+OBJETC
+    arry
+
+FUNCTION
+====================================================================
+
+CONVERTENDO STRING PRA NUMEROS
+Number.parseint(n)
+Number.parseFloat(n) (número com virgula)
+Number(n) (o proprio java intende se é inteiro ou não)
+
+CONVERTENDO NUMEROS PRA STRING
+String(n)
+n.toString()
+====================================================================
+
+FORMATANDO STRINGS
+
+var s = 'javascript'
+'Eu estou aprendendo s' (não usar interpolação)
+'Eu estou aprendendo' + s (usa concatenação)
+'Eu estou aprendendo ${s}' (usa template string)
+
+s.length (mostrar a quantidade de letras)
+.toUperCase() (deixar tudo em maiúsculo)
+.toLowerCase() (deixar tudo em minúsculas)
+
+FORMATANDO NUMEROS
+
+.toFixed(n) (para colocar o numero de casa depois da virgula)
+n1.toFixed(2).replace('.' , ',') (replace para tocar ponto por viruga ou oura coisa)
+.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) (localizarar para o pais)
