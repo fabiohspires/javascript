@@ -66,10 +66,100 @@ relacionais
 lógicos
 tenário
 
-Aritiméticos
-+ (soma)
-- (subtração)
-* (multiplicação)
-/ (divisão)
-% 
+ARITIMÉTICOS 1°
++ (soma) 5+2=10
+- (subtração) 5-2=3
+* (multiplicação) 5*2=10
+/ (divisão real / normal) 5/2=2.5
+% (divisão inteira / quando for usar a virgula vc para) 5%2=1
+** (potência) 5**2=25
+
+ordem de precedênica
+()
 **
+* / %
+------------------------------------------------------------------------
+auto atribuição
+var n = 3
+n = n + 4   7   n+= 4 (simplificando)
+n = n - 5   2   n-= 5 
+
+incremento
+var x = 5
+x = x + 1 x++
+x = x-1   x--
+---------------------------------------------------------------------------
+
+RELACIONAIS 2º
+ > menor
+ < maior
+ >= maior igual
+ <= menor igual
+ == igual
+ != diferente
+ === idêntico (5 = '5' false)
+ --------------------------------------------------------------------------
+
+LÓGICOS 3º
+
+! negação (não) 1º
+&& conjunção (e) 2º
+|| disjunção (ou) 3º
+
+! true = false
+  false = true
+
+true       true = true    os dois tem que ser verdadeiros
+true       false = false 
+false  %%  true = false
+false      false = flase
+
+true       true = true       basta um ser verdadeiro
+true       false = true
+false  ||  true = true
+false      false = false
+
+exemplos
+
+idade >= 15 && idade <=17   //a idade esta entre 15 e 17
+estado == 'RJ' || estado == 'SP' // o estado é RJ ou SP
+salário > 1500 && sexo != 'M' o salario é acima de 1500 e não é homem 
+
+--------------------------------------------------------------------------
+ORDEM DE PRECEDÊNCIA
+
+() ** / ... aritiméticos
+> < >= ... relacionais (não tem ordem de precedênica)
+! && ||
+---------------------------------------------------------------------------
+
+TERNÁRIO
+
+? : (if e else)
+
+teste ? true : false
+média >=7.0 ? "Aprovado" : "Reprovado"
+==========================================================================
+DOM (Document Object Model)
+
+innerText (pega o texto normal sem formatação / sem filho)
+innerHTML (pega o texto com formatação / com filhos)
+
+SELECIONANDO ELEMENTOS 
+
+POR MARCA
+getElementsByTagName() no plural colocar []
+
+POR ID
+getElementByid()
+
+POR NOME
+getElementsByName()
+
+POR CLASSE
+getElementsByClassName()
+
+POR SELETOR
+querySelector()
+querySelectorAll()  (plural)
+
