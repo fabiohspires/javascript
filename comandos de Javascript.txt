@@ -98,7 +98,7 @@ RELACIONAIS 2º
  == igual
  != diferente
  === idêntico (5 = '5' false)
- --------------------------------------------------------------------------
+ -------------------------------------------------------------------------
 
 LÓGICOS 3º
 
@@ -162,4 +162,44 @@ getElementsByClassName()
 POR SELETOR
 querySelector()
 querySelectorAll()  (plural)
+--------------------------------------------------------------------------
+
+EVENTOS DOM
+
+mouseenter mousemove
+mousedown mouseup
+click mouseout
+
+usar addEventlistner('click', clicar)
+
+FUNCÕES
+
+function ação(parametros) {
+  
+}
+==========================================================================
+
+CONDIÇÕES
+
+if (condição){
+  true
+}else{
+  false
+}
+
+Tipos de condição
+
+condição simples
+
+if(condição){
+  true
+}
+
+condição 
+
+if (condição){
+  true
+}else{
+  false
+}
 
