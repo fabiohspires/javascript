@@ -195,11 +195,41 @@ if(condição){
   true
 }
 
-condição 
+condição Composta
 
 if (condição){
   true
 }else{
   false
+}
+
+Condição Aninhada (Usar para intervalos)
+
+if (cond1){ 
+  bloco1
+}else if (cond2) {
+  bloco2
+}else {
+  bloco 3
+}
+
+Condição Multipla (Usar para valores pontuais)
+
+switch (expressão) { 
+  case valor 1:
+    bloco
+    break
+
+  case valor 2:
+    bloco
+    break
+
+  case valor 3:
+    bloco
+    break
+
+  default:
+    bloco
+    break
 }
 
