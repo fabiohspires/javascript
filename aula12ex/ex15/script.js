@@ -12,7 +12,7 @@ function verificar() {
         let genero = ''
         if (fsex[0].checked) {
             genero = 'homem'
-            if (idade >=0 && idade <12 ) {
+            if (idade >= 0 && idade < 12 ) {
                 img.src = 'criancah.png'
             }else if (idade < 30){
                 img.src = 'jovemh.png'
@@ -23,7 +23,7 @@ function verificar() {
             }
         } else if (fsex[1].checked) {
             genero = 'mulher'
-            if (idade >=0 && idade <12) {
+            if (idade >= 0 && idade < 12) {
             img.src = 'criancam.png'
             }else if (idade < 30) {
             img.src = 'jovemm.png'

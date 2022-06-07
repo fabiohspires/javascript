@@ -233,3 +233,40 @@ switch (expressão) {
     break
 }
 
+=================================================================
+
+REPETIÇÕES
+
+(estrutura de repetição com teste lógico no início)
+
+while (condição){   // enquanto
+
+} 
+
+function comerPizza(){
+  while (temFatia()){
+    comerFatia()
+  }
+}
+-----------------------------------------------------------------
+(estrutura de repetição com teste lógico no final)
+
+do {    //faça  (o contrario da primera)
+
+} while (condição)
+
+-----------------------------------------------------------------
+(estrutura de repetição com variável de controle)
+
+for (início; teste; incremente){
+
+}
+
+let c= 1
+while (c <= 10){
+  c++
+}
+
+for (let c=1; c<=10; c++){
+
+}
