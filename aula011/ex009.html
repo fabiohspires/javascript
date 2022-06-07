@@ -8,17 +8,14 @@
 </head>
 <body>
     <h1>Olá, digite a sua Nacionalidade</h1>
-    <input type="text" name="pais" id="pais"> <input type="button" value="Verificar" onclick="checar()">
+    <input type="text" name="" id="">
     <div class="descricao"></div>
     <script>
         function checar() {
             let nacio = document.getElementById('#pais')
             let desc = document.querySelector('.descricao')
-            if (nacio != 'Brasil') {
-                desc.innerHTML = `Você é ESTRANGEIRO`
-            } else{
-                desc.innerHTML = `Você é BRASILEIRO`
-            }
+            
+            
         }
     </script>
 </body>
